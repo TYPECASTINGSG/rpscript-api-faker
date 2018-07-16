@@ -1,10 +1,9 @@
-/**
- * @module Faker
- */
-
 import faker from 'faker';
 import {RpsContext,RpsModule,rpsAction} from 'rpscript-interface';
 
+/** Faker Module
+ * @namespace Faker
+*/
 @RpsModule("faker")
 export default class RPSFaker {
 
